@@ -1,0 +1,36 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "namePrefix": {
+      "value": "w2k19-4n"
+    },
+    "existingDomainName": {
+      "value": "asd.com"
+    },
+    "adminUsername": {
+      "value": "adadministrator"
+    },
+    "adminPassword": {
+      "value": "@zureP@ssw0rd"
+    },
+    "existingVirtualNetworkName": {
+      "value": "adVNET"
+    },
+    "existingVirtualNetworkRGName": {
+      "value": "HyperVClusterAssessment"
+    },    
+    "existingSubnetName": {
+      "value": "adSubnet"
+    },
+    "enableAcceleratedNetworking": {
+      "value": false
+    },
+    "vmDiskCount": {
+      "value": 4
+    },
+    "vmCount": {
+      "value": 4
+    }
+  }
+}
