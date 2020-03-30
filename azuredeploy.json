@@ -180,7 +180,7 @@
       "metadata": {
         "description": "Location of resources that the script is dependent on such as linked templates and DSC modules"
       },
-      "defaultValue": "https://raw.githubusercontent.com/robotechredmond/301-storage-spaces-direct-md/master"
+      "defaultValue": "https://raw.githubusercontent.com/jsporbert/S2DDeploy2Azure/master"
     },
     "_artifactsLocationSasToken": {
       "type": "securestring",
